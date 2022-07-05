@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.pageWrup {
+    background-image: url('../assets/img/bcgback.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.header,
+.main,
+.footer {
+    padding: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-right: 10px;
+    color: rgba(177, 187, 203, 0.87);
+}
+
+.nav-link {
+    width: 244px;
+    padding-top: 36px;
+}
+
+.container {
+    max-width: 826px;
+    margin: 0 auto;
+}
+
+.h1-main {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 167;
+    height: 29;
+}
+
+.p-main {
+    max-width: 567px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+
+}
+
+.p-footer {
+
+    width: 126px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.27);
+}
+
+* {
+    box-sizing: border-box;
+}
